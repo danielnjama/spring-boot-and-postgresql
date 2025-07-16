@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">My Website</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/contacts">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link" href="/db-test-page">Test Database</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1 class="text-center">Contact Us</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm p-4">
+                <p class="lead">Feel free to reach out to us at:</p>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Email:</strong> admin@dtechnologys.com</li>
+                    <li class="list-group-item"><strong>Phone:</strong> +254-717-828-927</li>
+                    <li class="list-group-item"><strong>Address:</strong> Tom Mboya Street, Nairobi</li>
+                </ul>
+                <div class="text-center mt-3">
+                    <a href="/" class="btn btn-secondary">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
